@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
+		935BF01B107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 935BF01A107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.m */; };
+		935BF022107F50390032EA28 /* QTXAutoPlayFullscreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 935BF021107F50390032EA28 /* QTXAutoPlayFullscreen.m */; };
+		935BF04A107F54B40032EA28 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935BF049107F54B40032EA28 /* Cocoa.framework */; };
+		935BF18B107F63DF0032EA28 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935BF18A107F63DF0032EA28 /* AppKit.framework */; };
+		935BF3F7107F7CE80032EA28 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935BF3F6107F7CE80032EA28 /* QTKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D576316048677EA00EA77CD /* QTXAutoPlayFullscreen.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTXAutoPlayFullscreen.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935BF019107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+QTXAutoPlayFullscreenHook.h"; sourceTree = "<group>"; };
+		935BF01A107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QTXAutoPlayFullscreenHook.m"; sourceTree = "<group>"; };
+		935BF020107F50390032EA28 /* QTXAutoPlayFullscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTXAutoPlayFullscreen.h; sourceTree = "<group>"; };
+		935BF021107F50390032EA28 /* QTXAutoPlayFullscreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTXAutoPlayFullscreen.m; sourceTree = "<group>"; };
+		935BF049107F54B40032EA28 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		935BF06D107F54D80032EA28 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		935BF18A107F63DF0032EA28 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		935BF3F6107F7CE80032EA28 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D576313048677EA00EA77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935BF04A107F54B40032EA28 /* Cocoa.framework in Frameworks */,
+				935BF18B107F63DF0032EA28 /* AppKit.framework in Frameworks */,
+				935BF3F7107F7CE80032EA28 /* QTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* QTXAutoPlayFullscreen */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+				935BF18A107F63DF0032EA28 /* AppKit.framework */,
+			);
+			name = QTXAutoPlayFullscreen;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				935BF049107F54B40032EA28 /* Cocoa.framework */,
+				935BF06D107F54D80032EA28 /* AppKit.framework */,
+				935BF3F6107F7CE80032EA28 /* QTKit.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D576317048677EA00EA77CD /* Info.plist */,
+				8D5B49A704867FD3000E48DA /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				935BF019107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.h */,
+				935BF01A107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.m */,
+				935BF020107F50390032EA28 /* QTXAutoPlayFullscreen.h */,
+				935BF021107F50390032EA28 /* QTXAutoPlayFullscreen.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D576316048677EA00EA77CD /* QTXAutoPlayFullscreen.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D57630D048677EA00EA77CD /* QTXAutoPlayFullscreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "QTXAutoPlayFullscreen" */;
+			buildPhases = (
+				8D57630F048677EA00EA77CD /* Resources */,
+				8D576311048677EA00EA77CD /* Sources */,
+				8D576313048677EA00EA77CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTXAutoPlayFullscreen;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = QTXAutoPlayFullscreen;
+			productReference = 8D576316048677EA00EA77CD /* QTXAutoPlayFullscreen.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "QTXAutoPlayFullscreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* QTXAutoPlayFullscreen */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D57630D048677EA00EA77CD /* QTXAutoPlayFullscreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D57630F048677EA00EA77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D576311048677EA00EA77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935BF01B107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.m in Sources */,
+				935BF022107F50390032EA28 /* QTXAutoPlayFullscreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D5B49A704867FD3000E48DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB911B08733D790010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = QTXAutoPlayFullscreen;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1DEB911C08733D790010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = QTXAutoPlayFullscreen;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DEB911F08733D790010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB912008733D790010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "QTXAutoPlayFullscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB911B08733D790010E9CD /* Debug */,
+				1DEB911C08733D790010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "QTXAutoPlayFullscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB911F08733D790010E9CD /* Debug */,
+				1DEB912008733D790010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
