@@ -93,11 +93,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 285040086;
-			PBXWorkspaceStateSaveDate = 285040086;
+			PBXPerProjectTemplateStateSaveDate = 285040828;
+			PBXWorkspaceStateSaveDate = 285040828;
 		};
 		perUserProjectItems = {
-			9300E78C10FD5DFC00767AF4 /* PlistBookmark */ = 9300E78C10FD5DFC00767AF4 /* PlistBookmark */;
+			9300E78C10FD5DFC00767AF4 = 9300E78C10FD5DFC00767AF4 /* PlistBookmark */;
+			9300E7A410FD607D00767AF4 = 9300E7A410FD607D00767AF4 /* PlistBookmark */;
 			9337062910A8E00800EE5D5A = 9337062910A8E00800EE5D5A /* PBXTextBookmark */;
 			9337062F10A8E00800EE5D5A = 9337062F10A8E00800EE5D5A /* PlistBookmark */;
 			935BF0A6107F57970032EA28 = 935BF0A6107F57970032EA28 /* PBXTextBookmark */;
@@ -137,7 +138,19 @@
 		);
 		name = /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/Info.plist;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
+	};
+	9300E7A410FD607D00767AF4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D576317048677EA00EA77CD /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSPrincipalClass,
+		);
+		name = /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/QTXAutoPlayFullscreen/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
 	};
 	9337062910A8E00800EE5D5A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
