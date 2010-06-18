@@ -10,9 +10,14 @@ cCompileC build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/Ob
 cLd /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/Debug/QTXAutoPlayFullscreen.bundle/Contents/MacOS/QTXAutoPlayFullscreen normal x86_64
 
 N/Developer/SDKs/MacOSX10.6.sdk
-c000000004AAC36CC00000000000000EE
-t1252800204
+c000000004ABBF0FD00000000000000EE
+t1253830909
 s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004ABBF0EC000000000025462C
+t1253830892
+s2442796
 
 N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
 c000000004A67D2A800000000000017ED
@@ -25,9 +30,14 @@ t1086630504
 s485
 
 N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004A600B8400000000000013E6
-t1247808388
+c000000004AB9AA2700000000000013E6
+t1253681703
 s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Headers/QTKit.h
+c000000004A67D618000000000000044A
+t1248319000
+s1098
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/objc/runtime.h
 c000000004A4D51C8000000000000530A
@@ -55,13 +65,13 @@ t1247808459
 s11760720
 
 N/System/Library/Frameworks/QTKit.framework/QTKit
-c000000004A67D60D0000000000662110
-t1248318989
-s6693136
+c000000004B692143000000000066F480
+t1265180995
+s6747264
 
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/English.lproj/InfoPlist.strings
-c000000004ACF17340000000000000030
-t1255085876
+c000000004B4D28E00000000000000030
+t1263347936
 s48
 
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/MGDocumentWindowController+SjaakHook.h
@@ -91,19 +101,33 @@ t1255085916
 s259
 i"MGDocumentWindowController.h"
 
+N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/NSObject+QTXAutoPlayFullscreenHook.h
+c000000004B4D28E000000000000001CE
+t1263347936
+s462
+i<Cocoa/Cocoa.h>
+
+N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/NSObject+QTXAutoPlayFullscreenHook.m
+c000000004B4D28E00000000000000A47
+t1263347936
+s2631
+i<Foundation/Foundation.h>
+i"NSObject+QTXAutoPlayFullscreenHook.h"
+i<QTKit/QTKit.h>
+
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/QTXAutoPlayFullscreen.h
-c000000004ACF18D90000000000000104
-t1255086297
+c000000004B4D28E00000000000000104
+t1263347936
 s260
 i<Cocoa/Cocoa.h>
 
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/QTXAutoPlayFullscreen.m
-c000000004ACF26DD00000000000002C5
-t1255089885
-s709
+c000000004B4D28E0000000000000067A
+t1263347936
+s1658
 i<objc/runtime.h>
 i"QTXAutoPlayFullscreen.h"
-i"MGDocumentWindowController+SjaakHook.h"
+i"NSObject+QTXAutoPlayFullscreenHook.h"
 
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/QTXAutoPlayFullscreenMGDocumentWindowController.h
 c000000004ACF22A500000000000001B2
@@ -118,11 +142,11 @@ s506
 i"QTXAutoPlayFullscreenMGDocumentWindowController.h"
 
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/Debug/QTXAutoPlayFullscreen.bundle
-t1255089888
-s102
+t1263347933
+s136
 
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/Debug/QTXAutoPlayFullscreen.bundle/Contents/Info.plist
-t1255089637
+t1263347933
 s1087
 
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/Debug/QTXAutoPlayFullscreen.bundle/Contents/MacOS/QTXAutoPlayFullscreen
@@ -130,7 +154,7 @@ t2
 s0
 
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/Debug/QTXAutoPlayFullscreen.bundle/Contents/Resources/English.lproj/InfoPlist.strings
-t1255088242
+t1263347933
 s92
 
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/Objects-normal/i386/MGDocumentWindowController+SjaakHook.o
@@ -154,23 +178,27 @@ N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscree
 t2
 s0
 
+N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/Objects-normal/x86_64/NSObject+QTXAutoPlayFullscreenHook.o
+t2
+s0
+
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/Objects-normal/x86_64/QTXAutoPlayFullscreen.LinkFileList
-c000000004ACF2306000000000000015D
-t1255088902
+c000000004B4D28DD000000000000015D
+t1263347933
 s349
 
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/Objects-normal/x86_64/QTXAutoPlayFullscreen.o
-t1255090650
-s6832
+t2
+s0
 
 N/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/Objects-normal/x86_64/QTXAutoPlayFullscreenMGDocumentWindowController.o
 t1255088643
 s4276
 
 NInfo.plist
-c000000004ACF25E50000000000000466
-t1255089637
-s1126
+c000000004BB36A1D0000000000000467
+t1270049309
+s1127
 
 CCheck dependencies
 r0
@@ -216,6 +244,9 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@99"Compile /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/MGDocumentWindowController+SjaakHook.m276783449#276783450#0(0"0(0#0#91"/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/MGDocumentWindowController+SjaakHook.m4300882208#1750"    cd /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/QTXAutoPlayFullscreen-generated-files.hmap -I/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/QTXAutoPlayFullscreen-own-target-headers.hmap -I/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/QTXAutoPlayFullscreen-all-target-headers.hmap -iquote /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/QTXAutoPlayFullscreen-project-headers.hmap -F/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/Debug -I/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/Debug/include -I/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/DerivedSources/x86_64 -I/Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/DerivedSources -c /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/MGDocumentWindowController+SjaakHook.m -o /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/Objects-normal/x86_64/MGDocumentWindowController+SjaakHook.o0#
 
 CCompileC build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/Objects-normal/x86_64/MGDocumentWindowController.o /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/MGDocumentWindowController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/Objects-normal/x86_64/NSObject+QTXAutoPlayFullscreenHook.o /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/NSObject+QTXAutoPlayFullscreenHook.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/QTXAutoPlayFullscreen.build/Debug/QTXAutoPlayFullscreen.build/Objects-normal/x86_64/QTXAutoPlayFullscreen.o /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/QTXAutoPlayFullscreen.m normal x86_64 objective-c com.apple.compilers.gcc.4_2

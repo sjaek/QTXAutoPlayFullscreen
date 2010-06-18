@@ -93,21 +93,20 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 285040828;
-			PBXWorkspaceStateSaveDate = 285040828;
+			PBXPerProjectTemplateStateSaveDate = 298590535;
+			PBXWorkspaceStateSaveDate = 298590535;
 		};
 		perUserProjectItems = {
-			9300E78C10FD5DFC00767AF4 = 9300E78C10FD5DFC00767AF4 /* PlistBookmark */;
-			9300E7A410FD607D00767AF4 = 9300E7A410FD607D00767AF4 /* PlistBookmark */;
-			9337062910A8E00800EE5D5A = 9337062910A8E00800EE5D5A /* PBXTextBookmark */;
-			9337062F10A8E00800EE5D5A = 9337062F10A8E00800EE5D5A /* PlistBookmark */;
+			933159C811CC21B1002E6628 /* PBXTextBookmark */ = 933159C811CC21B1002E6628 /* PBXTextBookmark */;
 			935BF0A6107F57970032EA28 = 935BF0A6107F57970032EA28 /* PBXTextBookmark */;
-			935BF161107F5E6C0032EA28 = 935BF161107F5E6C0032EA28 /* PlistBookmark */;
 			935BF162107F5E6C0032EA28 = 935BF162107F5E6C0032EA28 /* PBXTextBookmark */;
 			935BF405107F7D260032EA28 = 935BF405107F7D260032EA28 /* PBXTextBookmark */;
-			935BF4EA107FDC690032EA28 = 935BF4EA107FDC690032EA28 /* PBXTextBookmark */;
-			9399C9351096FA39006BDC1D = 9399C9351096FA39006BDC1D /* PBXTextBookmark */;
 			9399C9361096FA39006BDC1D = 9399C9361096FA39006BDC1D /* PBXTextBookmark */;
+			93DA1CF31163A1AD00D95CBF = 93DA1CF31163A1AD00D95CBF /* PBXTextBookmark */;
+			93DA1CF81163A21200D95CBF = 93DA1CF81163A21200D95CBF /* PBXTextBookmark */;
+			93DAF9E910FD6159003A47F7 = 93DAF9E910FD6159003A47F7 /* PlistBookmark */;
+			93DAF9EA10FD6159003A47F7 = 93DAF9EA10FD6159003A47F7 /* PBXTextBookmark */;
+			93DAF9EB10FD6159003A47F7 = 93DAF9EB10FD6159003A47F7 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 935BF010107F4ED30032EA28 /* Source Control */;
 		userBuildSettings = {
@@ -115,9 +114,10 @@
 	};
 	089C167EFE841241C02AAC07 /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {594, 468}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 662}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 45}";
+			sepNavWindowFrame = "{{38, 62}, {1260, 790}}";
 		};
 	};
 	8D57630D048677EA00EA77CD /* QTXAutoPlayFullscreen */ = {
@@ -128,51 +128,15 @@
 			sepNavWindowFrame = "{{15, 83}, {1260, 790}}";
 		};
 	};
-	9300E78C10FD5DFC00767AF4 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D576317048677EA00EA77CD /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			NSPrincipalClass,
-		);
-		name = /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/Info.plist;
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	9300E7A410FD607D00767AF4 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D576317048677EA00EA77CD /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			NSPrincipalClass,
-		);
-		name = /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/QTXAutoPlayFullscreen/Info.plist;
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	9337062910A8E00800EE5D5A /* PBXTextBookmark */ = {
+	933159C811CC21B1002E6628 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 935BF019107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.h */;
-		name = "NSObject+QTXAutoPlayFullscreenHook.h: 12";
+		fRef = 935BF01A107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.m */;
+		name = "NSObject+QTXAutoPlayFullscreenHook.m: 13";
 		rLen = 0;
-		rLoc = 312;
+		rLoc = 305;
 		rType = 0;
-		vrLen = 462;
-		vrLoc = 0;
-	};
-	9337062F10A8E00800EE5D5A /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D576317048677EA00EA77CD /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			NSPrincipalClass,
-		);
-		name = /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/Info.plist;
-		rLen = 0;
-		rLoc = 9223372036854775808;
+		vrLen = 1485;
+		vrLoc = 57;
 	};
 	935BF010107F4ED30032EA28 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -190,24 +154,24 @@
 	};
 	935BF019107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1153, 535}}";
-			sepNavSelRange = "{312, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 511}}";
+			sepNavSelRange = "{462, 0}";
 			sepNavVisRange = "{0, 462}";
 			sepNavWindowFrame = "{{15, 83}, {1260, 790}}";
 		};
 	};
 	935BF01A107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1293, 936}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1293, 962}}";
 			sepNavSelRange = "{305, 0}";
-			sepNavVisRange = "{0, 1644}";
+			sepNavVisRange = "{57, 1485}";
 			sepNavWindowFrame = "{{61, 41}, {1260, 790}}";
 		};
 	};
 	935BF020107F50390032EA28 /* QTXAutoPlayFullscreen.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1153, 555}}";
-			sepNavSelRange = "{35, 21}";
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 517}}";
+			sepNavSelRange = "{260, 0}";
 			sepNavVisRange = "{0, 260}";
 		};
 	};
@@ -215,7 +179,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1153, 572}}";
 			sepNavSelRange = "{1282, 0}";
-			sepNavVisRange = "{0, 1653}";
+			sepNavVisRange = "{0, 1649}";
 			sepNavWindowFrame = "{{38, 62}, {1260, 790}}";
 		};
 	};
@@ -235,17 +199,6 @@
 		name = NSDocumentController.h;
 		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSDocumentController.h;
 		sourceTree = "<absolute>";
-	};
-	935BF161107F5E6C0032EA28 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D576317048677EA00EA77CD /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/Info.plist;
-		rLen = 0;
-		rLoc = 9223372036854775808;
 	};
 	935BF162107F5E6C0032EA28 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -274,26 +227,6 @@
 		vrLen = 1430;
 		vrLoc = 419;
 	};
-	935BF4EA107FDC690032EA28 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 935BF020107F50390032EA28 /* QTXAutoPlayFullscreen.h */;
-		name = "QTXAutoPlayFullscreen.h: 3";
-		rLen = 21;
-		rLoc = 35;
-		rType = 0;
-		vrLen = 260;
-		vrLoc = 0;
-	};
-	9399C9351096FA39006BDC1D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 935BF021107F50390032EA28 /* QTXAutoPlayFullscreen.m */;
-		name = "QTXAutoPlayFullscreen.m: 31";
-		rLen = 0;
-		rLoc = 1282;
-		rType = 0;
-		vrLen = 1653;
-		vrLoc = 0;
-	};
 	9399C9361096FA39006BDC1D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 935BF01A107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.m */;
@@ -302,6 +235,57 @@
 		rLoc = 305;
 		rType = 0;
 		vrLen = 1644;
+		vrLoc = 0;
+	};
+	93DA1CF31163A1AD00D95CBF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 935BF019107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.h */;
+		name = "NSObject+QTXAutoPlayFullscreenHook.h: 19";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 0;
+	};
+	93DA1CF81163A21200D95CBF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 935BF01A107F4F750032EA28 /* NSObject+QTXAutoPlayFullscreenHook.m */;
+		name = "NSObject+QTXAutoPlayFullscreenHook.m: 13";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 1587;
+		vrLoc = 57;
+	};
+	93DAF9E910FD6159003A47F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D576317048677EA00EA77CD /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/sjaak/Development/Cocoa/QTXAutoPlayFullscreen/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	93DAF9EA10FD6159003A47F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 935BF020107F50390032EA28 /* QTXAutoPlayFullscreen.h */;
+		name = "QTXAutoPlayFullscreen.h: 18";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	93DAF9EB10FD6159003A47F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 935BF021107F50390032EA28 /* QTXAutoPlayFullscreen.m */;
+		name = "QTXAutoPlayFullscreen.m: 31";
+		rLen = 0;
+		rLoc = 1282;
+		rType = 0;
+		vrLen = 1649;
 		vrLoc = 0;
 	};
 }
