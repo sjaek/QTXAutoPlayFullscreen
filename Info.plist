@@ -28,7 +28,7 @@
 			<key>BundleIdentifier</key>
 			<string>com.apple.QuickTimePlayerX</string>
 			<key>MaxBundleVersion</key>
-			<string>90.3.1</string>
+			<string>114</string>
 			<key>MinBundleVersion</key>
 			<string>51</string>
 		</dict>
