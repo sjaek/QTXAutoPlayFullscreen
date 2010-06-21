@@ -1,0 +1,37 @@
+h1. QTXAutoPlayFullscreen
+
+h2. About
+
+QTXAutoPlayFullscreen is a SIMBL Plugin that alters Quicktime Player X to automatically start playing when entering full screen.
+It also automatically resigns full screen when the movie has finished playing. 
+ 
+h2. Installing QTXAutoPlayFullscreen
+
+In order to enable SIMBL plugins you need to install SIMBL, you can download the latest release at: http://www.culater.net/software/SIMBL/SIMBL.php
+
+After installing SIMBL you need to download the @QTXAutoPlayFullscreen.bundle.zip@ file, extract it and drop @QTXAutoPlayFullscreen.bundle@ in @~/Library/Application Support/SIMBL/Plugins/@
+You can create the folder if it doesn't already exist.
+
+Now the plugin will be loaded when you start Quicktime Player X. If it was already running you need to restart Quicktime Player X.
+
+h2. Configuration
+
+You can configure the plugin by changing the defaults in the @com.apple.QuickTimePlayerX@ preference.
+This is easily managed by running one of these commands in the Terminal.
+
+h4. Enable auto play on full screen (default)
+
+@defaults write com.apple.QuickTimePlayerX QTXAutoPlayFullscreenEnabled -bool YES@
+
+h4. Disable auto play on full screen
+
+@defaults write com.apple.QuickTimePlayerX QTXAutoPlayFullscreenEnabled -bool NO@
+
+h4. Enable auto resign full screen when movie ends (default)
+
+@defaults write com.apple.QuickTimePlayerX QTXAutoResignFullscreenEnabled -bool YES@
+
+h4. Disable auto resign full screen when movie ends
+
+@defaults write com.apple.QuickTimePlayerX QTXAutoResignFullscreenEnabled -bool NO@
+
