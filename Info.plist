@@ -19,16 +19,16 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>SIMBLTargetApplications</key>
 	<array>
 		<dict>
 			<key>BundleIdentifier</key>
 			<string>com.apple.QuickTimePlayerX</string>
 			<key>MaxBundleVersion</key>
-			<string>118</string>
+			<string>128</string>
 			<key>MinBundleVersion</key>
 			<string>51</string>
 		</dict>
